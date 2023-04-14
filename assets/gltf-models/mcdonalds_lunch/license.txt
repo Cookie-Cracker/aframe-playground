@@ -1,0 +1,11 @@
+Model Information:
+* title:	McDonald's lunch
+* source:	https://sketchfab.com/3d-models/mcdonalds-lunch-1b0eeaab628740baae7ee2d19a4b8d2e
+* author:	AERO3D (https://sketchfab.com/aero3d.ua)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "McDonald's lunch" (https://sketchfab.com/3d-models/mcdonalds-lunch-1b0eeaab628740baae7ee2d19a4b8d2e) by AERO3D (https://sketchfab.com/aero3d.ua) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

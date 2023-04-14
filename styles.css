@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: monospace;
+}
+.settings {
+  position: fixed;
+  top: 5px;
+  left: 5px; /* width: 100%; */
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.settings > label {
+  color: aliceblue;
+}
+
+.hiro {
+  width: 64px;
+  height: 64px;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  position: fixed;
+  top: 5px;
+}
+#markerStatus {
+  border-radius: 5px;
+  height: 10px;
+  width: 64px;
+  background-color: crimson;
+  margin-top: 10px;
+}
+.range {
+  width: 128px;
+  height: 50%;
+  margin-top: 10px;
+}
