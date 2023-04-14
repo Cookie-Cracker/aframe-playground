@@ -86,6 +86,9 @@
             <img class="hiro" src="assets/images/hiro.png" />
             <!-- marker_status -->
             <div id="markerStatus"></div>
+            <button type="button" class="btn  btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              👁️‍🗨️ 
+            </button>
           </div>
           <!-- range -->
           <div class="range">
@@ -179,6 +182,27 @@
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">How to use</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/images/hiro.png" alt="hiro tag" class="me-3 float-start" width="64">
+            <p>Focus this image 👈 with your camera and select a model to preview.</p>
+            <p class="tip">Tips: When the camera recognize the pattern the red thing will turn green, if the model is to big or small <code>SCALE IT</code>!.</p>
+           <p>Print or focus in another screen this:</p>
+            <pre><a href="https://i.stack.imgur.com/5cahN.png">Hiro Marker</a></pre>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script type="text/javascript">
       let gltf_models_assests = document.getElementsByClassName("gltf-model");

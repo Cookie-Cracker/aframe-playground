@@ -39,3 +39,34 @@ body {
   height: 50%;
   margin-top: 10px;
 }
+
+/* Style the button */
+.btn-primary {
+  /* background-color: #fff; */
+  background-color: transparent;
+  color: white;
+  margin-top: 10px;
+}
+
+/* Style the modal */
+.modal-content {
+  border-radius: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+}
+.modal-title {
+  font-size: 1.5rem;
+}
+.modal-body {
+  padding: 1rem;
+}
+.modal-footer {
+  border-top: none;
+}
+.tip {
+  font-size: x-small;
+  color: cadetblue;
+}
